@@ -43,4 +43,4 @@ hacker@man~reading-manuals:/$ challenge/challenge --ldvgqd 764
 Correct usage! Your flag: pwn.college{Ql7d6v481g_7_ZBqdlCmXN7CM4I.dRTM4QDL1EjN0czW}
 ```
 
-PROCESS: man challenge to open challenge manual, quit the manual and cd to the / directory and then challenge/challenge --ldvgqd 764 as the manual says.
+PROCESS: man challenge to open challenge manual,cd to the / directory and then challenge/challenge --ldvgqd 764 as the manual says.
