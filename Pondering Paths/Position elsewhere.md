@@ -20,4 +20,4 @@ hacker@paths~position-elsewhere:/var/lib/apt/lists$
 PROCESS:
 invoked /challenge/run initially 
 got an error saying cd into /var/lib/apt/lists
-did that then invoked /challenge/run initially 
+did that then invoked /challenge/run 
