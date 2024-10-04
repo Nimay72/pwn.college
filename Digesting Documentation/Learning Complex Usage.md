@@ -12,4 +12,4 @@ pwn.college{I9K5LNviFJcqkpnuWOWPW7BC2BJ.dVjM5QDL1EjN0czW}
 ```
 
 PROCESS:
-Find flag file which was there in / directory and then use the command /challenge/challenge --printfile /flag to print the contents of thr file.
+Find flag file which was there in / directory and then use the command /challenge/challenge --printfile /flag to print the contents of the file.
