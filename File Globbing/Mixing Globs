@@ -1,0 +1,22 @@
+```
+Connected!
+hacker@globbing~mixing-globs:~$ /challenge/files
+ssh-entrypoint: /challenge/files: Is a directory
+hacker@globbing~mixing-globs:~$ cd /challenge/files
+hacker@globbing~mixing-globs:/challenge/files$ ls
+amazing      delightful   great       jovial    magical     pwning   splendid   victorious  youthful
+beautiful    educational  happy       kind      nice        queenly  thrilling  wonderful   zesty
+challenging  fantastic    incredible  laughing  optimistic  radiant  uplifting  xenial
+hacker@globbing~mixing-globs:/challenge/files$ ls [cep]*
+challenging  educational  pwning
+hacker@globbing~mixing-globs:/challenge/files$ /challenge/run [cep]*
+You got it! Here is your flag!
+pwn.college{Ys1uVZqoEtcro8dEVNI3lyyoihV.dVjM4QDL1EjN0czW}
+```
+
+PROCESS:
+cd to /challenge/files.
+
+ ls [cep]*
+using this globbing command would list the files challenging  educational  pwning. This is an instance of mixing the globs.
+Once checking that it does show the required files, it's run and the challenge is solved.
